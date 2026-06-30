@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# macOS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# CodeGraph 本地索引
+.codegraph/
+
+# 原始数据由脚本下载，不提交到 GitHub
+data/raw/
+
+# 报告正文和 Overleaf 文件只在本地保留，不提交到公开仓库
+report/
