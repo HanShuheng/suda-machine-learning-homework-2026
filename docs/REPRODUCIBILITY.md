@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```bash
 python src/download_data.py
 python src/preprocess.py
-python src/run_experiments.py --epochs 80 --seeds 2026 2027 2028 2029 2030
+python src/run_experiments.py --epochs 50 --seeds 2026 2027 2028 2029 2030
 ```
 
 输出文件：
